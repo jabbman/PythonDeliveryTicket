@@ -1,0 +1,128 @@
+\documentclass[12pt]{book}
+\usepackage{geometry}
+\usepackage{pdflscape}
+\usepackage{graphics}
+\usepackage{color}
+\usepackage{graphicx}
+\usepackage{multicol}
+\geometry{hmargin={0.5in,0.5in},vmargin={0.5in,0.5in}}
+\input{StripedTicket}
+\begin{document}
+\thispagestyle{empty}
+\begin{landscape}
+\begin{multicols}{2}
+\begin{minipage}[h!]{4.25in}
+\begin{tabular}{cc}
+\begin{tabular}{c} \\ \hskip-.25in \includegraphics[scale=.175]{ICELogoW} 
+\end{tabular}  
+& 
+\begin{tabular}{c}
+{} \\ {} \\
+\Large{\hskip-.2in Jamestown Ice \& Storage } \\
+\large{\hskip-.2in 66 Foote Avenue}\\
+\large{\hskip-.2in Jamestown, NY 14701} \\
+\large{\hskip-.2in (716) 487-1978 } \\
+ \\ % Some intentional Spacing
+\end{tabular}
+\\
+\end{tabular}
+
+\hrule ${}$ \\[-12pt] ${}$ \\
+\noindent Ticket: \TicketNum \hfill \Date \\[-4pt] \hrule
+
+\vskip12pt 
+\noindent {\textsc{\Customer }} \\ 
+
+Invoice Type: \PaidState  \hfill Check Number: \CheckNum  \\ 
+\hrule ${}$ \\[-4pt] ${}$ \\
+\Comment \\ \hrule
+\begin{center}
+Services:
+\end{center}
+ \hrule
+\vskip12pt
+\begin{center}
+\begin{tabular}{lclcr}
+{\color{\setColorBags}\it $7^{lb}$ bags: }   &  \color{\setColorBags}\SmallBags & \color{\setColorBags} @ \PriceSmallBags &\color{\setColorBags} ${---} \;\; $ \$ & \color{\setColorBags} \TotalSmallBags \\
+{\color{\setColorBags}\it $22^{lb}$ bags: } & \color{\setColorBags} \BigBags    & \color{\setColorBags} @ \PriceBigBags     & \color{\setColorBags}${---} \;\; $ \$ & \color{\setColorBags} \TotalBigBags \\ 
+& & & & \\ 
+{\color{\setColorBlocks} \it $10^{lb}$ block: } & \color{\setColorBlocks}\SmallBlock & \color{\setColorBlocks} @ \PriceSmallBlock & \color{\setColorBlocks} ${---} \;\; $ \$ & \color{\setColorBlocks} \TotalSmallBlock \\
+{\color{\setColorBlocks} \it $25^{lb}$ block: } & \color{\setColorBlocks}\LargeBlock & \color{\setColorBlocks}@ \PriceLargeBlock & \color{\setColorBlocks}${---} \;\; $ \$ & \color{\setColorBlocks} \TotalLargeBlock \\
+& & & & \\ \color{black}
+{\color{\setColorVendor}\it Vendor Rent:}       & \color{\setColorVendor} \VendorRent & \color{\setColorVendor}@ \RateVendorRent & \color{\setColorVendor}${---} \;\;$ \$ &\color{\setColorVendor} \TotalVendorRent \\
+{\color{\setColorStorage} \it Storage: }  & \color{\setColorStorage} \Storage       & \color{\setColorStorage} @ \PriceStorage    & \color{\setColorStorage}  ${---} \;\; $ \$  & \color{\setColorStorage} \TotalStorage \\
+{\color{\setColorFreight}\it Freight: }              & \color{\setColorFreight}\Freight        & \color{\setColorFreight}@ \PriceFreight     & \color{\setColorFreight} ${---} \;\; $ \$ & \color{\setColorFreight} \TotalFreight \\
+{\color{\setColorOther}\it Other: }                &\color{\setColorOther} \Other          & \color{\setColorOther}@ \PriceOther       & \color{\setColorOther}${---} \;\; $ \$ & \color{\setColorOther}\TotalOther \\
+& & & &  \\ \hline 
+& & & &  \\ 
+& & & \color{black} \hskip.2in Total : \$ & \TicketTotal \\ 
+& & &  &
+\end{tabular}
+{\textsf{Thank you for your business!}}
+\end{center}
+Signature: $\underline{\hskip3in}$
+\begin{center}
+\vskip-8pt Merchant Copy 
+\end{center}
+\end{minipage}
+
+\hskip.4in
+\begin{minipage}[h!]{4.25in}
+\begin{tabular}{cc}
+\begin{tabular}{c} \\ \hskip-.25in \includegraphics[scale=.175]{ICELogoW} 
+\end{tabular}  
+& 
+\begin{tabular}{c}
+{} \\ {} \\
+\Large{\hskip-.2in Jamestown Ice \& Storage } \\
+\large{\hskip-.2in 66 Foote Avenue}\\
+\large{\hskip-.2in Jamestown, NY 14701} \\
+\large{\hskip-.2in (716) 487-1978 } \\
+ \\ % Some intentional Spacing
+\end{tabular}
+\\
+\end{tabular}
+
+\hrule ${}$ \\[-12pt] ${}$ \\
+\noindent Ticket: \TicketNum \hfill \Date \\[-4pt] \hrule
+
+\vskip12pt 
+\noindent {\textsc{\Customer }} \\ 
+
+Invoice Type: \PaidState  \hfill Check Number: \CheckNum  \\ 
+\hrule ${}$ \\[-4pt] ${}$ \\
+\Comment \\ \hrule
+\begin{center}
+Services:
+\end{center}
+ \hrule
+\vskip12pt
+\begin{center}
+\begin{tabular}{lclcr}
+{\color{\setColorBags}\it $7^{lb}$ bags: }   &  \color{\setColorBags}\SmallBags & \color{\setColorBags} @ \PriceSmallBags &\color{\setColorBags} ${---} \;\; $ \$ & \color{\setColorBags} \TotalSmallBags \\
+{\color{\setColorBags}\it $22^{lb}$ bags: } & \color{\setColorBags} \BigBags    & \color{\setColorBags} @ \PriceBigBags     & \color{\setColorBags}${---} \;\; $ \$ & \color{\setColorBags} \TotalBigBags \\ 
+& & & & \\ 
+{\color{\setColorBlocks} \it $10^{lb}$ block: } & \color{\setColorBlocks}\SmallBlock & \color{\setColorBlocks} @ \PriceSmallBlock & \color{\setColorBlocks} ${---} \;\; $ \$ & \color{\setColorBlocks} \TotalSmallBlock \\
+{\color{\setColorBlocks} \it $25^{lb}$ block: } & \color{\setColorBlocks}\LargeBlock & \color{\setColorBlocks}@ \PriceLargeBlock & \color{\setColorBlocks}${---} \;\; $ \$ & \color{\setColorBlocks} \TotalLargeBlock \\
+& & & & \\ \color{black}
+{\color{\setColorVendor}\it Vendor Rent:}       & \color{\setColorVendor} \VendorRent & \color{\setColorVendor}@ \RateVendorRent & \color{\setColorVendor}${---} \;\;$ \$ &\color{\setColorVendor} \TotalVendorRent \\
+{\color{\setColorStorage} \it Storage: }  & \color{\setColorStorage} \Storage       & \color{\setColorStorage} @ \PriceStorage    & \color{\setColorStorage}  ${---} \;\; $ \$  & \color{\setColorStorage} \TotalStorage \\
+{\color{\setColorFreight}\it Freight: }              & \color{\setColorFreight}\Freight        & \color{\setColorFreight}@ \PriceFreight     & \color{\setColorFreight} ${---} \;\; $ \$ & \color{\setColorFreight} \TotalFreight \\
+{\color{\setColorOther}\it Other: }                &\color{\setColorOther} \Other          & \color{\setColorOther}@ \PriceOther       & \color{\setColorOther}${---} \;\; $ \$ & \color{\setColorOther}\TotalOther \\
+& & & &  \\ \hline 
+& & & &  \\ 
+& & & \color{black} \hskip.2in Total : \$ & \TicketTotal \\ 
+& & &  &
+\end{tabular}
+{\textsf{Thank you for your business!}}
+\end{center}
+Signature: $\underline{\hskip3in}$
+\begin{center}
+\vskip-8pt Customer Copy 
+\end{center}
+\end{minipage}
+
+\end{multicols}
+\end{landscape}
+
+\end{document}

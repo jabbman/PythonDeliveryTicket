@@ -1,0 +1,149 @@
+commit 6289ce02fd415c18a227ee84f15a1b5b06291630
+Author: pi <pi@gmail.com>
+Date:   Thu May 11 02:27:41 2017 +0000
+
+    added raspberry pi command log
+
+commit e3558d80e47199365b1b8d921ab195802ae5a232
+Author: Ranuka <rmanamendra@gmail.com>
+Date:   Wed May 10 21:54:46 2017 -0400
+
+    updated driver ui
+
+commit 62e4725a3170d72c38e428bea96f9ceaa62bb3ba
+Author: Ranuka <rmanamendra@gmail.com>
+Date:   Wed May 10 21:41:32 2017 -0400
+
+    changes from demo, added embedded ticket view
+
+commit 779018c82cda5ab40e417e5e5ad9889272e2fdb3
+Author: Ranuka <rmanamendra@gmail.com>
+Date:   Wed May 10 20:10:27 2017 -0400
+
+    added sanitize input logic for name and comment parsing
+
+commit 672e67161e07225a480242f89922be7cdafc28a7
+Author: Ranuka <rmanamendra@gmail.com>
+Date:   Wed May 10 20:09:44 2017 -0400
+
+    added python lib requirements
+
+commit 17088e5fc0c8e888cca9f1ed739c4577dbcf852e
+Author: Ranuka <rmanamendra@gmail.com>
+Date:   Wed May 10 19:55:45 2017 -0400
+
+    added screen
+
+commit f9cd3d4a0b47141a25ce76989f27566fc4a7ba51
+Author: Ranuka <rmanamendra@gmail.com>
+Date:   Sun May 7 18:06:32 2017 -0400
+
+    .desktop file path fix
+
+commit 0074ae8489833a8469bff39efef4127431b9a551
+Author: Ranuka <rmanamendra@gmail.com>
+Date:   Sun May 7 18:00:40 2017 -0400
+
+    more changes..
+
+commit e71fc2de160309731d2bcfbbcf7b63787eb67360
+Author: Ranuka <rmanamendra@gmail.com>
+Date:   Sun May 7 17:42:44 2017 -0400
+
+    changes to start.sh
+
+commit 97378603c58749dd665e89a7eff2e868dbde617d
+Author: Ranuka <rmanamendra@gmail.com>
+Date:   Sun May 7 17:31:00 2017 -0400
+
+    added test desktop file
+
+commit cb3a4c74112a652b88ec7f50c3d723b6cb5648fd
+Author: Ranuka <rmanamendra@gmail.com>
+Date:   Sun May 7 17:02:18 2017 -0400
+
+    updated .desktop file, changed pdf path
+
+commit cf79b860e814878babfe329365f04139c404c466
+Author: Ranuka <rmanamendra@gmail.com>
+Date:   Sun May 7 16:20:59 2017 -0400
+
+    added two versions of the app, one for office use, one for drivers; retained original paths
+
+commit 4547dfb90f6ff7b8c2686fd47914183f07fce498
+Author: Ranuka <rmanamendra@gmail.com>
+Date:   Thu Apr 27 18:54:25 2017 -0400
+
+    changed path
+
+commit 41b70d23bcef13f77eb03a7a1a274f3ba73d8d5c
+Author: Ranuka <rmanamendra@gmail.com>
+Date:   Thu Apr 27 18:51:58 2017 -0400
+
+    added display pdf support
+
+commit e037f8692ea31649b495d1eed74b6854e89bead5
+Author: Ranuka <rmanamendra@gmail.com>
+Date:   Thu Apr 27 18:42:03 2017 -0400
+
+    changed print sequence order
+
+commit 6dcea932736466bcb28c2bcd94efb3e183f35a43
+Author: Ranuka <rmanamendra@gmail.com>
+Date:   Thu Apr 27 18:22:48 2017 -0400
+
+    added list conversion since keys() returns an obj and not a list in python3
+
+commit a4c9af836022ff1e4e7baf81915bc96b2f49c2c2
+Author: Ranuka <rmanamendra@gmail.com>
+Date:   Thu Apr 27 17:08:17 2017 -0400
+
+    added more missing code
+
+commit 40a13d6026a965309c8334841a7ffaeed9dae6be
+Author: Ranuka <rmanamendra@gmail.com>
+Date:   Thu Apr 27 17:05:27 2017 -0400
+
+    added missing code
+
+commit b98f48130b37b399a78067683f4aff1887cf548b
+Author: Ranuka <rmanamendra@gmail.com>
+Date:   Tue Apr 18 18:54:59 2017 -0400
+
+    added customer filtering support
+
+commit bfb060a1a04f346ace846a30048e2c921adb79f9
+Author: Ranuka <rmanamendra@gmail.com>
+Date:   Tue Apr 18 18:54:35 2017 -0400
+
+    added directory checking/creation before app start
+
+commit e9cd1aeedca6517874a08c1f4090d31b5e62262d
+Author: Ranuka <rmanamendra@gmail.com>
+Date:   Tue Apr 18 18:54:00 2017 -0400
+
+    gave customers more unique names to check for customer search filtering
+
+commit 79440131f89f7dea0d9ac61345fbeaeebefe89d4
+Author: Ranuka <rmanamendra@gmail.com>
+Date:   Tue Apr 18 18:53:34 2017 -0400
+
+    added latex pdf generation
+
+commit e1b6a6f3195c69afd23d2b1b00d2a97ad5c71e30
+Author: Ranuka <rmanamendra@gmail.com>
+Date:   Tue Apr 18 18:53:00 2017 -0400
+
+    fixed import err
+
+commit f62923e9f8eaf9f6ece5235d3a3a53b36702b342
+Author: John Chrispell <john.chrispell@iup.edu>
+Date:   Wed Apr 12 09:26:55 2017 -0400
+
+    added Template for the printed ticket
+
+commit fb6b2c35eee5f7fec590bb6eaf3cc7eb450090c4
+Author: Ranuka <rmanamendra@gmail.com>
+Date:   Sun Apr 2 23:15:51 2017 -0400
+
+    init commit

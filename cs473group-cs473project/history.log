@@ -1,0 +1,922 @@
+    1  top
+    2  python
+    3  ifconfig
+    4  iwconfig
+    5  cat /etc/network/interfaces
+    6  nano /etc/wpa_supplicant/wpa_supplicant.conf 
+    7  sudo nano /etc/wpa_supplicant/wpa_supplicant.conf 
+    8  cat /etc/wpa_supplicant/wpa_supplicant.conf 
+    9  sudo cat /etc/wpa_supplicant/wpa_supplicant.conf 
+   10  ifconfig
+   11  sudo ifdown wlan0
+   12  sudo ifup wlan0
+   13  ifconfig
+   14  sudo gedit 
+   15  sudo nano /etc/wpa_supplicant/wpa_supplicant.conf 
+   16  sudo cat /etc/wpa_supplicant/wpa_supplicant.conf 
+   17  sudo nano /etc/network/interfaces
+   18  sudo /etc/init.d/networking restart
+   19  systemctl daemon-reload 
+   20  sudo systemctl daemon-reload 
+   21  sudo nano /etc/wpa_supplicant/wpa_supplicant.conf 
+   22  sudo nano /etc/network/interfaces
+   23  sudo /etc/init.d/networking restart
+   24  sudo wpa_supplicant -i wlan0 -c /etc/wpa_supplicant/wpa_supplicant.conf -B
+   25  wpa_supplicant 
+   26  sudo nano /etc/wpa_supplicant/wpa_supplicant.conf 
+   27  wpa_supplicant 
+   28  sudo wpa_supplicant -i wlan0 -c /etc/wpa_supplicant/wpa_supplicant.conf -B
+   29  wpa_gui
+   30  wpa_cli 
+   31  wpa_action 
+   32  sudo wpa_supplicant -i wlan0 -c /etc/wpa_supplicant/wpa_supplicant.conf -B
+   33  rm /var/run/wpa_supplicant/wlan0 
+   34  sudo rm /var/run/wpa_supplicant/wlan0 
+   35  sudo wpa_supplicant -i wlan0 -c /etc/wpa_supplicant/wpa_supplicant.conf -B
+   36  sudo nano /etc/network/interfaces
+   37  sudo wpa_supplicant -i wlan0 -c /etc/wpa_supplicant/wpa_supplicant.conf -B
+   38  sudo rm /var/run/wpa_supplicant/wlan0 
+   39  sudo wpa_supplicant -i wlan0 -c /etc/wpa_supplicant/wpa_supplicant.conf -B
+   40  wpa_supplicant 
+   41  sudo /etc/init.d/networking restart
+   42  ifconfig /all
+   43  ifconfig 
+   44  ping www.iup.edu
+   45  ping http://www.iup.edu
+   46  ping https://www.iup.edu
+   47  ping www.iup.edu
+   48  sudo service ifplugd start
+   49  sudo service ifplugd stop
+   50  route -n
+   51  sudo nano /etc/network/interfaces
+   52  ifconfig up
+   53  iwconfig up
+   54  iwconfig wlan0 up
+   55  iwconfig
+   56  sudo iwlist wlan0 scan
+   57  ip a
+   58  ip link set wlan0 up
+   59  sudo ip link set wlan0 up
+   60  ifup wlan0
+   61  sudo ifup wlan0
+   62  sudo nano /etc/network/interfaces
+   63  sudo nano /etc/wpa_supplicant/wpa_supplicant.conf 
+   64  ifconfig
+   65  sudo nano /etc/wpa_supplicant/wpa_supplicant.conf 
+   66  sudo nano /etc/network/interfaces
+   67  ifconfig
+   68  sudo nano /etc/network/interfaces
+   69  sudo ifdown eth0
+   70  sudo ifup eth0
+   71  sudo service networking restart
+   72  sudo systemctl daemon-reload 
+   73  sudo service networking restart
+   74  sudo ifup eth0
+   75  ping google.con
+   76  ping google.com
+   77  whoami
+   78  lshw
+   79  hwinfo
+   80  free -m
+   81  df -h
+   82  cat /proc/version
+   83  cat /proc/cpuinfo
+   84  cd /media
+   85  cd piu
+   86  cd pi
+   87  ls
+   88  cd E00D-FD0C/
+   89  ls
+   90  python ICEPOS.py
+   91  python 
+   92  python ICEReports.py 
+   93  cp /media/pi/E00D-FD0C/ICEReports.py ¬/De.
+   94  clear
+   95  cp /media/pi/E00D-FD0C/ICEReports.py /home/pi/Desktop/.
+   96  cp /media/pi/E00D-FD0C/ICEPOS.py /home/pi/Desktop/.
+   97  cd /home/pi/Desktop/
+   98  ls
+   99  python ICEPOS.py &
+  100  nano ICEPOS.py 
+  101  ls
+  102  clear
+  103  cd /media/
+  104  ls
+  105  cd pi
+  106  ls
+  107  cd SETTINGS/
+  108  ls
+  109  cd
+  110  cd /media/
+  111  ls
+  112  cd
+  113  ls
+  114  caedrj
+  115  clear
+  116  cd /clear
+  117  cd
+  118  cd /media/
+  119  ls
+  120  cd /home/pi/Desktop/
+  121  python ICEPOS.py  &
+  122  clear
+  123  ls
+  124  cd Tickets/
+  125  ls
+  126  cd 2017/
+  127  ls
+  128  cd February/
+  129  ls
+  130  cat SalesDate_7_A_Customer_TicNum_0.py 
+  131  clear
+  132  cd ..
+  133  ls
+  134  cd ..
+  135  ls
+  136  python ICEReports.py &
+  137  clear
+  138  ls
+  139  cd Reports/
+  140  ls
+  141  cd ..
+  142  ls
+  143  cat AllTickets.txt 
+  144  nano ICEReports.py 
+  145  clear
+  146  cd Reports/
+  147  ls
+  148  cd ..
+  149  ls
+  150  cd Tickets/
+  151  ls
+  152  cd ..
+  153  ls
+  154  python ICEPOS.py &
+  155  cclear
+  156  celaer
+  157  clear
+  158  cd Tickets/
+  159  ls
+  160  cd 2016/
+  161  ls
+  162  cd March/
+  163  ls
+  164  cat SalesDate_12_D_Customer_TicNum_1.py 
+  165  ping google.com
+  166  python ICEReports.py
+  167  cd home
+  168  ls
+  169  cd Desktop
+  170  python ICEReports.py
+  171  python ICEPOS.py
+  172  sudo apt-get install cups
+  173  sudo nano /etc/network/interfaces
+  174  ifconfig
+  175  ping www.google.com
+  176  sudo lsusb
+  177  sudo apt-get install wpasupplicant wireless-tools
+  178  sudo nano /etc/network/interfaces
+  179  sudo iwlist wlan0 scan
+  180  sudo nano /etc/wpa_supplicant/wpa_supplicant.conf
+  181  sudo reboot
+  182  ifconfig
+  183  ip
+  184  ipconfig
+  185  ifconfig
+  186  iwconfig
+  187  ping google.com
+  188  ping https://google.com
+  189  ip route
+  190  ping google.com
+  191  ping -c 4 google.com
+  192  ip addr
+  193  ping -c 4 173.194.34.99
+  194  sudo chmod u+s /bin/ping
+  195  ping -c 4 google.com
+  196  ping -c 4 173.194.34.99
+  197  ping google.com
+  198  sudo apt-get install --reinstall ca-certificates ca-certificates-java
+  199  sudo reboot
+  200  ping google.com
+  201  ping 139.130.4.5
+  202  sudo nano /etc/resolv.conf
+  203  pi reboot
+  204  reboot
+  205  sudo apt-get install cups
+  206  sudo usermod -a -G lpadmin pi
+  207  sudo nano /etc/cups/cupsd.conf
+  208  sudo /etc/init.d/cups restart
+  209  run cups
+  210  restare
+  211  restart
+  212  reboot
+  213  ping 8.8.8.8
+  214  ping google.com
+  215  reboot
+  216  ping google.com
+  217  ping 139.130.4.5
+  218  ping http://google.com
+  219  ping www.google.com
+  220  ping google.com
+  221  sudo nano /etc/resolv.conf
+  222  sudo apt-get update
+  223  sudo apt-get install cups
+  224  sudo usermod -a -G lpadmin pi
+  225  sudo nano /etc/cups/cupsd.conf
+  226  sudo /etc/init.d/cups restart
+  227  sudo poweroff
+  228  ping google.com
+  229  cv
+  230  su root
+  231  su pi
+  232  reset6
+  233  reset
+  234  su pi
+  235  history
+  236  sudo usermod -a -G lpadmin piwhoami
+  237  whoami
+  238  sudo ps aux
+  239  sudo
+  240  sudo ls
+  241  passwd
+  242  sudo remove cups
+  243  reset
+  244  sudo uninstall cups
+  245  sudo apt-get uninstall cups
+  246  sudo apt-get remove cups
+  247  sud
+  248  s
+  249  reset
+  250  sudo apt-get install cups
+  251  reset
+  252  adduser
+  253  root
+  254  sudo su root
+  255  sudo usermod -a -G lpadmin test
+  256  op[en .
+  257  open .
+  258  vi /boot/config.txt
+  259  sudo vi /boot/config.txt
+  260  sudo apt-get install iceweasel
+  261  sudo apt-get updatye
+  262  sudo apt-get update
+  263  sudo aptitude install iceweasel
+  264  sudo apt-get install chromium-browser
+  265  ping google.com
+  266  ping reddit.com
+  267  curl google.com
+  268  ping 
+  269  ping http://google.com
+  270  ping google.com
+  271  sudo apt-get install iceweasel
+  272  ping google.com
+  273  rpmbuild
+  274  ls /
+  275  cd media
+  276  cd /media
+  277  ls
+  278  cd pi
+  279  ls
+  280  cd Transcend/
+  281  ls
+  282  cp canonip110.ppd /home/pi
+  283  cd ¬
+  284  cd /home
+  285  ls
+  286  cd pi
+  287  ls
+  288  rpmbuild
+  289  cd Desktop/
+  290  ls
+  291  cd cnijfilter2-source-5.00-1/
+  292  ls
+  293  cd scripts
+  294  ls
+  295  cd install_rpm
+  296  ls
+  297  bash install.sh
+  298  cd ..
+  299  bash scripts/install_rpm/install.sh
+  300  rpm
+  301  cd scripts/
+  302  cd install_deb
+  303  ls
+  304  bash install.sh
+  305  cd..
+  306  cd ..
+  307  ls
+  308  cd rastertocanonij
+  309  ls
+  310  ./autogen.sh --prefix=/usr --enable-progpath=/usr/local/bin
+  311  ls
+  312  cdsrc
+  313  cd src
+  314  ls
+  315  cd ..
+  316  ls
+  317  ./autogen.sh --prefix=/usr --enable-progpath=/usr/local/bin
+  318  cd ../..
+  319  ls
+  320  cd autoconf-2.69/
+  321  ls
+  322  cat INSTALL
+  323  ls
+  324  cat README
+  325  ls
+  326  cat INSTALL
+  327  ./configure; make; make install
+  328  ./configure
+  329  sudo ./configure
+  330  m4
+  331  cd /usr/
+  332  ls
+  333  cd lib
+  334  ls
+  335  cd cups
+  336  ls
+  337  cd filter/
+  338  ls
+  339  cd rastertohp
+  340  cd /home/pi
+  341  ls
+  342  cd desktop
+  343  cd Desktop/
+  344  ls
+  345  cd m4-1.4.17/
+  346  ls
+  347  cat INSTALL
+  348  ./configure && make && make install
+  349  sudo ./configure && make && make install
+  350  sudo make
+  351  sudo make install
+  352  m4
+  353  sudo ./configure && sudo make && sudo make install
+  354  cd ..
+  355  ls
+  356  cd automake-1.15/
+  357  ls
+  358  vi INSTALL
+  359  sudo ./configure && sudo make && sudo make install
+  360  cd..
+  361  cd ..
+  362  ls
+  363  cd autoconf-2.69/
+  364  ls
+  365  sudo ./configure && sudo make && sudo make install
+  366  autoconf
+  367  cd ..
+  368  ls
+  369  cd libtool-2.4/
+  370  sudo ./configure && sudo make && sudo make install
+  371  libtool
+  372  cd ..
+  373  ks
+  374  ls
+  375  cd automake-1.15/
+  376  sudo ./configure && sudo make && sudo make install
+  377  automake
+  378  cd..
+  379  cd ../
+  380  ls
+  381  cd cnijfilter2-source-5.00-1/
+  382  ls
+  383  cd rastertocanonij/
+  384  ls
+  385  cat INSTALL 
+  386  ./autogen.sh --prefix=/usr --enable-progpath=/usr/local/bin
+  387  cat INSTALL 
+  388  sudo make
+  389  make
+  390  apt-get install
+  391  deb
+  392  dpkg
+  393  cd ..
+  394  ld
+  395  ls
+  396  dpkg -i *.deb
+  397  sudo dpkg -i *.deb
+  398  dpkg -i libcups2-dev_1.7.5-11+deb8u1_armhf.deb 
+  399  sudo dpkg -i libcups2-dev_1.7.5-11+deb8u1_armhf.deb 
+  400  sudo apt-get install -f
+  401  cd cnijfilter2-source-5.00-1/
+  402  ls
+  403  cd rastertocanonij/
+  404  sudo make
+  405  sudo make install
+  406  cd /usr/lib/cups/filter
+  407  ls
+  408  cd ¬
+  409  cd /home/pi/Desktop/
+  410  cd cnijfilter2-source-5.00-1/
+  411  ls
+  412  cd cmdtocanonij2/
+  413  ls
+  414  cat INSTALL 
+  415  ./autogen.sh --prefix=/usr
+  416  make
+  417  cd ..
+  418  ls
+  419  cd cnijbe2/
+  420  ls
+  421  cat INSTALL
+  422  ./autogen.sh --prefix=/usr
+  423  make
+  424  sudo make install
+  425  ls
+  426  cd ..
+  427  ls
+  428  cd tocanonij/
+  429  ls
+  430  ./autogen.sh --prefix=/usr
+  431  make
+  432  sudo make install
+  433  ls
+  434  cd ..
+  435  ls
+  436  cd cnijbe2/
+  437  ls
+  438  cat INSTALL
+  439  ./autogen.sh --prefix=/usr
+  440  cd Desktop/
+  441  cd cnijfilter2-source-5.00-1/
+  442  cd cnijbe2/
+  443  make
+  444  sudo make install
+  445  cd ..
+  446  ls
+  447  cd debian
+  448  ls
+  449  cd ..
+  450  cd cmdtocanonij2/
+  451  ls]
+  452  ls
+  453  make
+  454  sudo make
+  455  ls
+  456  vi Makefile.am
+  457  cd filter
+  458  ls
+  459  make
+  460  cd ..
+  461  ls
+  462  cat install-sh
+  463  ./install-sh
+  464  ls
+  465  ./autogen.sh
+  466  make
+  467  ls
+  468  cd filter/
+  469  ls
+  470  vi Makefile.am
+  471  cd ..
+  472  ./autogen.sh
+  473  make
+  474  cd filter
+  475  ls
+  476  vi Makefile.am
+  477  cd ..
+  478  ls
+  479  rm cnijfilter2-source-5.00-1
+  480  rm -rf cnijfilter2-source-5.00-1
+  481  cd cnijfilter2-source-5.00-1/
+  482  ks
+  483  ls
+  484  cd cmdtocanonij2/
+  485  ls
+  486  cd ..
+  487  ls
+  488  vi cnijfilter2.spec
+  489  cd cmdtocanonij2/
+  490  ls
+  491  getconf
+  492  getconf LONG_BIT
+  493  ./autogen.sh --prefix=/usr --datadir=%{_prefix}/share LDFLAGS="-L../../com/libs_bin32"
+  494  ./autogen.sh --prefix=/usr --datadir=/usr/local/share LDFLAGS="-L../../com/libs_bin32"
+  495  make
+  496  ./autogen.sh --prefix=/usr --datadir=/usr/local/share LDFLAGS="-L../com/libs_bin32"
+  497  make
+  498  ./autogen.sh --prefix=/usr --datadir=/usr/local/share LDFLAGS="-L../../com/libs_bin32"
+  499  make
+  500  ./autogen.sh --prefix=/usr --datadir=/usr/local/share LDFLAGS="-L../../com/libs_bin64"
+  501  make
+  502  ./autogen.sh --prefix=/usr --datadir=/usr/local/share LDFLAGS="-L../../com/libs_bin32"
+  503  make
+  504  sudo make
+  505  cd ../..
+  506  cd gutenprint-5.2.12/
+  507  ls
+  508  cat INSTALL
+  509  ./configure; make; make install
+  510  sudo make
+  511  make
+  512  sudo ./configure
+  513  make clean
+  514  make
+  515  make clean
+  516  sudo make
+  517  gutenprint
+  518  cups
+  519  ping google.com
+  520  sudo apt-get update
+  521  ping google.com
+  522  sudo apt-get update
+  523  ping google.com
+  524  curl google.com
+  525  curl reddit.com
+  526  ping google.com
+  527  ping reddit.com
+  528  sudo apt-get install printer-driver-gutenprint
+  529  sudo apt-get remove cups
+  530  sudo apt-get install printer-driver-gutenprint
+  531  apt-get remove printer-driver-gutenprint
+  532  sudo apt-get remove printer-driver-gutenprint
+  533  sudo apt-get remove cups
+  534  apt-cache policy cups
+  535  vi /etc/apt/sources.list
+  536  sudo vi /etc/apt/sources.list
+  537  apt-cache policy cups
+  538  sudo apt-get update
+  539  sudo apt-get install printer-driver-gutenprint
+  540  ping google.com
+  541  sudo apt-get install printer-driver-gutenprint
+  542  ping google.com
+  543  sudo apt-get install printer-driver-gutenprint
+  544  ping google.com
+  545  ifconfig
+  546  dhclient
+  547  ifconfig
+  548  sudo dhclient usb0
+  549  ifconfig
+  550  ping google.com
+  551  ping 8.8.8.8
+  552  history
+  553  sudo apt-get install printer-driver-gutenprint
+  554  sudo apt-get update
+  555  pi restart
+  556  ping google.com
+  557  ping 8.8.8.8
+  558  ping yahoo.com
+  559  ipconfig -a
+  560  ifconfig -a
+  561  ifconfig
+  562  ifup --force wlan0
+  563  sudo ifup --force wlan0
+  564  sudo ifdown --force wlan0
+  565  ping yahoo.com
+  566  sudo ifup --force wlan0
+  567  ping yahoo.com
+  568  ping google.com
+  569  wireless-power off
+  570  vi /etc/network/interfaces
+  571  sudo vi /etc/network/interfaces
+  572  sudo vi /etc/modprobe.d/8192cu.conf
+  573  cd /etc/modprobe.d/
+  574  ls
+  575  sudo vi /etc/modprobe.d/8192cu.conf
+  576  sudo reboot
+  577  ping yahoo.com
+  578  mer
+  579  ping yahoo.com
+  580  mer
+  581  ping yahoo.com
+  582  sudo vi /etc/network/interfaces
+  583  cp /etc/network/interfaces .
+  584  sudo vi /etc/network/interfaces
+  585  sudo reboot
+  586  ping yahoo.com
+  587  sudo apt-get install printer-driver-gutenprint
+  588  sudo apt-get update
+  589  sudo apt-get install printer-driver-gutenprint
+  590  sudo apt-get install cups
+  591  wget localhost:631
+  592  curl localhost:631
+  593  sudo apt-get install chromium
+  594  sudo apt-get install chromium-browser
+  595  chromium-browser
+  596  sudo apt-get install iceweasel
+  597  sudo usermod -a -G lpadmin test
+  598  mkdir jt_app
+  599  cd jt_app
+  600  virtualenv venv
+  601  pip
+  602  sudo pip install virtualvenv
+  603  sudo pip install virtualenv
+  604  virtualenv venv
+  605  source venv/bin/activate
+  606  pip install cups
+  607  ls
+  608  cd jt_app/
+  609  ls
+  610  source venv/bin/activate
+  611  pip install pycupo
+  612  pip install pycups
+  613  python
+  614  sudo apt-get install python-dev 
+  615  ping yahoo.com
+  616  sudo apt-get install python-dev 
+  617  pip install pycups
+  618  cp ../test.pdf .
+  619  vi print.py
+  620  python print.py
+  621  vi print.py
+  622  python print.py
+  623  vi print.py
+  624  python print.py
+  625  vi print.py
+  626  python print.py
+  627  vi print.py
+  628  python print.py
+  629  vi print.py
+  630  python print.py
+  631  vi print.py
+  632  ls
+  633  ls /
+  634  cd /media
+  635  ls
+  636  cd pi
+  637  ls
+  638  cd ¬
+  639  cd /home/pi
+  640  ls
+  641  cd Desktop
+  642  ls
+  643  cd app
+  644  ls
+  645  virtualenv venv
+  646  ping google.com
+  647  sudo apt-get install python3-pyqt5
+  648  ping google.com
+  649  python3 app.py
+  650  ping google.com
+  651  flush dns
+  652  pi reboot
+  653  pi restart
+  654  ping google.com
+  655  ls
+  656  cd Desktop/
+  657  ls
+  658  cd app/
+  659  sudo apt-get install python3-pyqt5
+  660  ping google.com
+  661  sudo apt-get install python3-pyqt5
+  662  vi etc/apt/sources.list
+  663  vi /etc/apt/sources.list
+  664  sudo vi /etc/apt/sources.list
+  665  sudo apt-get update
+  666  sudo apt-get install python3-pyqt5
+  667  sudo vi /etc/apt/sources.list
+  668  sudo apt-get install python3-pyqt5
+  669  sudo apt-get install python-pyqt5
+  670  sudo apt-get install pyqt5
+  671  sudo apt-get install python3-pyqt5
+  672  sudo vi /etc/apt/sources.list
+  673  sudo apt-get install python3-pyqt5
+  674  sudo apt-get update
+  675  sudo apt-get install python3-pyqt5
+  676  python3 app.py
+  677  vi ticket.py
+  678  python3 app.py
+  679  vi config.py 
+  680  python3 app.py
+  681  vi config.py 
+  682  python3
+  683  ls
+  684  vi utils.py 
+  685  python3
+  686  ls
+  687  cd /opt/
+  688  pdflatex
+  689  ping google.con
+  690  ping google.com
+  691  curl google.coom
+  692  ping google.com
+  693  ls
+  694  ks
+  695  ls
+  696  git clone http://ranuka@bitbucket.org/cs473group/cs473project.git icepos
+  697  cd icepos/
+  698  ls
+  699  virtualvenv venv
+  700  virtualenv venv
+  701  source venv/bin/activate
+  702  python3 app.py
+  703  git pull
+  704  python3 app.py
+  705  pip install pycups
+  706  python3 app.py
+  707  pip3 install pycups
+  708  sudo pip3 install pycups
+  709  python3 app.py
+  710  git pull
+  711  python3 app.py
+  712  pwd
+  713  vi config.py
+  714  python3 app.py
+  715  sudo apt-get install texlive-latex-base
+  716  python3 app.py
+  717  ls
+  718  cd LatexTicketTemplate/
+  719  ls
+  720  cd temp/
+  721  ls
+  722  open template112120172704_customer19_T1.pdf 
+  723  xpdf 
+  724  xpdf template112120172704_customer19_T1.pdf 
+  725  history
+  726  sudo vi /etc/modprobe.d/8192cu.conf
+  727  ls
+  728  cc
+  729  cd icepos/
+  730  ls
+  731  source venv/bin/activate
+  732  python3 app.py
+  733  ls
+  734  vi utils.py
+  735  vi utils.py test.py
+  736  cp utils.py test.py
+  737  vi test.py
+  738  cd icepos/
+  739  ls
+  740  cp test.py LatexTicketTemplate/temp
+  741  cd LatexTicketTemplate/temp
+  742  ls
+  743  vi test.py
+  744  python3 test.py
+  745  vi test.py
+  746  python3 test.py
+  747  vi test.py
+  748  python3 test.py
+  749  cd ..
+  750  python3 app,py
+  751  python3 app.py
+  752  vi config.py
+  753  git add config.py
+  754  git commit -m 
+  755  git commit -m 'changed path'
+  756  git pull
+  757  python3 app,py
+  758  python3 app.py
+  759  xpdf
+  760  git pull
+  761  python3 app.py
+  762  vi ticket.py
+  763  git pull
+  764  python3 app.py
+  765  git pull
+  766  python3 app.py
+  767  xpdf ./LatexTicketTemplate/temp/552220172704_noname_T1.pdf
+  768  cd LatexTicketTemplate/
+  769  ls
+  770  cd temp/
+  771  ls
+  772  cd ../..
+  773  xpdf /LatexTicketTemplate/temp/552220172704_noname_T1.pdf
+  774  xpdf LatexTicketTemplate/temp/552220172704_noname_T1.pdf
+  775  vi app.py
+  776  vi ticket.py 
+  777  python3 app.py
+  778  ]]
+  779  run icepos.py
+  780  python3 app.py
+  781  cd /home
+  782  python3 app.py
+  783  cd /pi/desktop
+  784  cd /pi
+  785  cd /home/pi/desktop
+  786  source venv/bin/activate
+  787  cd..
+  788  cd ..
+  789  source venv/bin/activate
+  790  run: source venv/bin/activate
+  791  pyuthon3 app.py
+  792  pthon3 app.py
+  793  python3 app.py
+  794  cd ..
+  795  ls
+  796  cd home
+  797  ls]
+  798  ls
+  799  cd pi
+  800  ls
+  801  cd desktop
+  802  ls
+  803  cd Desktop
+  804  ls
+  805  cd app
+  806  source venv/bin/activate
+  807  python3 app.py
+  808  cd icepos
+  809  ls
+  810  git pull
+  811  git diff ticket.py
+  812  git checkout ticket.py
+  813  git pull
+  814  open .
+  815  pwd
+  816  git pull
+  817  ls
+  818  cd ..
+  819  ls
+  820  cp icepos/icepos_app.desktop Desktop
+  821  cd icepos
+  822  vi icepos_app.desktop `
+  823  vi icepos_app.desktop
+  824  ./start.sh
+  825  ls
+  826  rm -rf Tickets
+  827  ./start.sh
+  828  vi icepos_app.desktop
+  829  bash
+  830  ./start.sh
+  831  vi icepos_app.desktop 
+  832  ./start.sh
+  833  vi config.py
+  834  ./start.sh
+  835  git pull
+  836  vi test.desktop
+  837  ./start.sh
+  838  vi test.desktop
+  839  /home/pi/icepos/start.sh
+  840  ./home/pi/icepos/start.sh/
+  841  vi icepos_app.desktop 
+  842  vi test.desktop
+  843  cd ..
+  844  icepos/start.sh
+  845  cd icepos/
+  846  vi start.sh
+  847  git pull
+  848  cd ..
+  849  icepos/start.sh
+  850  vi start.sh
+  851  cd icepos
+  852  vi start.sh
+  853  cd ..
+  854  icepos/start.sh
+  855  cd icepos
+  856  ls
+  857  vi start.sh
+  858  vi config.py
+  859  cd icepos
+  860  ls
+  861  vi start.sh
+  862  vi config.py
+  863  vi start.sh
+  864  git add start.sh
+  865  git commit -m 'modified start.sh'
+  866  vi test.desktop
+  867  git pull
+  868  git checkout test.desktop
+  869  git checkout icepos_app.desktop
+  870  git pull
+  871  git checkout start.sh
+  872  git pull
+  873  git checkout start.sh
+  874  git pull
+  875  git stash start.sh
+  876  rm start.sh
+  877  git pull
+  878  vi start.sh
+  879  git checkout start.sh
+  880  vi start.sh
+  881  git pull
+  882  git diff
+  883  git diff start.sh
+  884  git pull start.sh
+  885  git pull
+  886  git reset --hard
+  887  git pull
+  888  vi icepos_app.desktop 
+  889  git checkout icepos_app.desktop
+  890  git pull
+  891  ping google.com
+  892  reboot
+  893  ping google.com
+  894  cd icepos
+  895  ls
+  896  git pull
+  897  ping google.com
+  898  git pull
+  899  ping bitbucket.com
+  900  curl bitbucket.com
+  901  curl google.com
+  902  git pull
+  903  ls
+  904  source venv/bin/activate
+  905  sudo apt-get install imagemagick
+  906  sudo apt-get update
+  907  sudo apt-get install imagemagick
+  908  pi
+  909  pip install wand
+  910  python3 app.py
+  911  vi gui/gui.py
+  912  python3 app.py
+  913  git pull
+  914  python3 app.py
+  915  vi utils.py
+  916  python3 app.py
+  917  vi utils.py
+  918  vim utils.py
+  919  sudo apt-get install vim
+  920  vim utils.py
+  921  python3 app.py
+  922  history > history.log

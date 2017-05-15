@@ -1,0 +1,5 @@
+PyInstaller==3.2.1
+Wand==0.4.4
+cx-Freeze==5.0.1
+pycups==1.9.73
+wsgiref==0.1.2

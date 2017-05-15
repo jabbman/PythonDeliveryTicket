@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Name=ICEPOS        
+Comment=Run the icepos app
+Exec=bash -c 'cd /home/pi/icepos && bash start.sh'
+Icon=utilities-terminal
+Terminal=true 
+Type=Application
+Categories=Application;
